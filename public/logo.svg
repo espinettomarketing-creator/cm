@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Vibrant Brand Orange Gradient for Badge Background -->
+    <linearGradient id="cm_badge_orange" x1="250" y1="60" x2="250" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#F98A00" />
+      <stop offset="100%" stopColor="#EA7300" />
+    </linearGradient>
+
+    <!-- Deep Ocean / Navy Blue for Pets and Bottom Arc -->
+    <linearGradient id="cm_pet_blue" x1="180" y1="120" x2="320" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0069A5" />
+      <stop offset="100%" stopColor="#005080" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. CIRCULAR ORANGE BADGE BACKGROUND -->
+  <circle cx="250" cy="250" r="190" fill="url(#cm_badge_orange)" />
+
+  <!-- 2. SMOOTH DEEP BLUE BOTTOM CRESCENT ARC -->
+  <path
+    d="M 96 335 
+       A 190 190 0 0 0 404 335 
+       C 370 415 315 440 250 440 
+       C 185 440 130 415 96 335 Z"
+    fill="url(#cm_pet_blue)"
+  />
+
+  <!-- 3. DIE-CUT THICK WHITE STICKER HALO (Encloses the pet trio against the orange circle) -->
+  <path
+    d="
+      M 132 138 
+      L 165 178 
+      C 190 162 215 162 232 152 
+      C 248 142 278 128 335 124 
+      C 375 124 415 155 428 195 
+      C 440 235 442 280 425 330 
+      C 410 365 375 410 325 432 
+      L 175 432 
+      C 125 410 90 365 75 330 
+      C 60 280 65 240 75 220 
+      L 85 225 
+      L 70 245 
+      L 90 258 
+      L 78 280 
+      L 100 295 
+      C 95 240 105 185 132 138 Z
+    "
+    fill="#FFFFFF"
+    stroke="#FFFFFF"
+    stroke-width="16"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+
+  <!-- 4. CAT (LEFT MASCOT) -->
+  <!-- Cat Head & Body Outer Silhouette (Blue) -->
+  <path
+    d="
+      M 135 145 
+      L 168 185 
+      C 185 176 205 176 222 188 
+      L 245 150 
+      C 252 195 250 240 248 280 
+      C 245 330 205 355 165 352 
+      C 125 348 102 312 104 265 
+      C 106 242 118 215 135 145 Z
+    "
+    fill="url(#cm_pet_blue)"
+  />
+
+  <!-- Cat Left Cheek 3 Fluffy Spikes -->
+  <path
+    d="
+      M 104 235 
+      L 74 248 
+      L 98 262 
+      L 76 278 
+      L 102 290 
+      L 82 308 
+      L 112 318 
+      Z
+    "
+    fill="url(#cm_pet_blue)"
+  />
+
+  <!-- Cat White Inner Ears -->
+  <polygon points="140,158 152,185 164,180" fill="#FFFFFF" opacity="0.9" />
+  <polygon points="238,162 226,186 215,182" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Cat White Blaze on Face (Extending from forehead down into fluffy chest bib) -->
+  <path
+    d="
+      M 195 182 
+      C 188 208 174 230 152 248 
+      C 138 258 126 264 116 270 
+      C 134 286 162 295 195 295 
+      C 228 295 256 286 274 270 
+      C 264 264 252 258 238 248 
+      C 216 230 202 208 195 182 Z
+    "
+    fill="#FFFFFF"
+  />
+
+  <!-- Cat White Chest Ruff -->
+  <path
+    d="
+      M 145 300 
+      C 130 338 145 385 195 408 
+      C 245 385 260 338 245 300 
+      C 225 315 165 315 145 300 Z
+    "
+    fill="#FFFFFF"
+  />
+
+  <!-- Cat Big Friendly Eyes -->
+  <circle cx="158" cy="232" r="14" fill="#013A63" />
+  <circle cx="161" cy="228" r="4.5" fill="#FFFFFF" />
+
+  <circle cx="230" cy="232" r="14" fill="#013A63" />
+  <circle cx="233" cy="228" r="4.5" fill="#FFFFFF" />
+
+  <!-- Cat Nose & Mouth -->
+  <path d="M 188 256 Q 194 262 200 256 Z" fill="#013A63" />
+  <path
+    d="M 188 259 Q 180 268 188 272 M 200 259 Q 208 268 200 272"
+    stroke="#013A63"
+    stroke-width="3.5"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- 5. DOG (RIGHT MASCOT) -->
+  <!-- Dog White Head Base -->
+  <path
+    d="
+      M 335 132 
+      C 275 132 235 178 235 250 
+      C 235 322 280 368 345 368 
+      C 410 368 448 322 448 250 
+      C 448 178 395 132 335 132 Z
+    "
+    fill="#FFFFFF"
+  />
+
+  <!-- Dog Dark Blue Patch on Right Side of Forehead & Eye -->
+  <path
+    d="
+      M 345 134 
+      C 395 142 435 185 442 245 
+      C 442 290 432 328 408 352 
+      C 414 315 418 255 398 205 
+      C 382 165 360 142 345 134 Z
+    "
+    fill="url(#cm_pet_blue)"
+  />
+
+  <!-- Dog Right Floppy Blue Ear -->
+  <path
+    d="
+      M 408 172 
+      C 432 195 455 248 440 308 
+      C 424 335 396 350 390 322 
+      C 384 280 390 218 408 172 Z
+    "
+    fill="#005080"
+  />
+
+  <!-- Dog Left Folded Blue Ear (between cat and dog) -->
+  <path
+    d="
+      M 275 152 
+      C 255 168 238 215 242 268 
+      C 252 238 270 198 298 178 Z
+    "
+    fill="url(#cm_pet_blue)"
+  />
+
+  <!-- Dog Left Eye (on White Fur) -->
+  <circle cx="312" cy="216" r="13" fill="#013A63" />
+  <circle cx="315" cy="212" r="4" fill="#FFFFFF" />
+
+  <!-- Dog Right Eye (Inside Blue Patch - White Ring with Dark Center, exactly as in uploaded logo!) -->
+  <circle cx="392" cy="216" r="11" fill="#FFFFFF" />
+  <circle cx="392" cy="216" r="6" fill="#013A63" />
+  <circle cx="394" cy="214" r="2" fill="#FFFFFF" />
+
+  <!-- Dog Big Friendly Oval Nose -->
+  <ellipse cx="340" cy="265" rx="16" ry="12" fill="#013A63" />
+
+  <!-- Dog Smiling Mouth & Tongue -->
+  <path
+    d="M 340 277 L 340 292 C 326 292 316 286 310 277 M 340 292 C 354 292 364 286 370 277"
+    stroke="#013A63"
+    stroke-width="5"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <path
+    d="M 330 292 C 330 308 350 308 350 292 Z"
+    fill="#FFFFFF"
+    stroke="#013A63"
+    stroke-width="3"
+  />
+
+  <!-- 6. GUINEA PIG (CENTER FOREGROUND MASCOT) -->
+  <!-- Fluffy Pure White Round Body with Side Tufts -->
+  <ellipse cx="250" cy="372" rx="76" ry="80" fill="#FFFFFF" stroke="#0069A5" stroke-width="4.5" />
+  
+  <!-- Fluffy Tufts on Left and Right -->
+  <path d="M 180 355 L 165 370 L 184 380 L 168 395 L 188 405 Z" fill="#FFFFFF" />
+  <path d="M 320 355 L 335 370 L 316 380 L 332 395 L 312 405 Z" fill="#FFFFFF" />
+
+  <!-- Guinea Pig Folded Blue Ears -->
+  <path d="M 198 312 C 192 302 216 298 225 316 C 215 322 202 322 198 312 Z" fill="#0069A5" />
+  <path d="M 302 312 C 308 302 284 298 275 316 C 285 322 298 322 302 312 Z" fill="#0069A5" />
+
+  <!-- Guinea Pig Eyes -->
+  <circle cx="222" cy="342" r="9" fill="#013A63" />
+  <circle cx="224" cy="340" r="3" fill="#FFFFFF" />
+  
+  <circle cx="278" cy="342" r="9" fill="#013A63" />
+  <circle cx="280" cy="340" r="3" fill="#FFFFFF" />
+
+  <!-- Guinea Pig Nose & 'Y' Mouth -->
+  <path
+    d="M 250 360 L 250 374 M 250 374 C 243 380 239 378 237 374 M 250 374 C 257 380 261 378 263 374"
+    stroke="#013A63"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Guinea Pig Cute Little Front Paws -->
+  <path d="M 206 426 C 206 436 224 436 224 426 Z" fill="#0069A5" />
+  <path d="M 276 426 C 276 436 294 436 294 426 Z" fill="#0069A5" />
+  <polygon points="210,432 213,426 216,432 219,426 222,432" fill="#FFFFFF" />
+  <polygon points="280,432 283,426 286,432 289,426 292,432" fill="#FFFFFF" />
+</svg>

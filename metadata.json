@@ -1,0 +1,6 @@
+{
+  "name": "Cuidados Miau - Guardería y Cuidado de Mascotas",
+  "description": "Guardería en casa, paseos diarios y hospedaje con amor para perros, gatos, conejos, cobayas, aves y pequeños animales con reportes diarios y fotos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
